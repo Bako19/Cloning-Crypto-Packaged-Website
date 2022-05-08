@@ -1,3 +1,135 @@
+@media only screen and (max-width: 575px) {
+    .S1H1 {
+        font-size: 28px;
+    }
+
+    .S1D1 {
+        width: 100vw;
+        border: none;
+    }
+
+    .S1D2 {
+        padding-top: 8vh;
+        width: 100vw;
+    }
+
+    .S1H2 {
+        font-size: 25px;
+    }
+
+    .S1P {
+        font-size: 20px;
+    }
+
+    .S1L2 {
+        font-size: 22px;
+    }
+
+    .HL2 {
+        font-size: 18px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .S1H1 {
+        font-size: 45px;
+    }
+
+    .S1D1 {
+        width: 50vw;
+    }
+
+    .S1D2 {
+        width: 50vw;
+    }
+
+    .S1H2 {
+        font-size: 30px;
+    }
+
+    .S1L2 {
+        font-size: 22px;
+    }
+
+    .HL2 {
+        font-size: 22px;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .S1H1 {
+        font-size: 70px;
+    }
+
+    .S1D1 {
+        width: 50vw;
+    }
+
+    .S1D2 {
+        width: 50vw;
+    }
+
+    .S1H2 {
+        font-size: 32px;
+    }
+
+    .S1P {
+        font-size: 20px;
+    }
+
+    .S1L2 {
+        font-size: 30px;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .S1H1 {
+        font-size: 90px;
+    }
+
+    .S1D1 {
+        width: 40vw;
+    }
+
+    .S1D2 {
+        width: 40vw;
+    }
+
+    .S1H2 {
+        font-size: 32px;
+    }
+
+    .S1P {
+        font-size: 22px;
+    }
+}
+
+@media only screen and (min-width: 1400px) {
+    .S1H1 {
+        font-size: 110px;
+    }
+
+    .S1D1 {
+        width: 40vw;
+    }
+
+    .S1D2 {
+        width: 40vw;
+    }
+
+    .S1H2 {
+        font-size: 45px;
+    }
+
+    .S1P {
+        font-size: 30px;
+    }
+
+    .HL2 {
+        font-size: 30px;
+    }
+}
+
 .H {
     background-image: url(../images/bg.png);
     background-size: 100%;
@@ -150,6 +282,7 @@ div.absolute {
 
 .S1 {
     background-color: #fbf8eb;
+    border-bottom: 5px solid black;
 }
 
 .S1H1 {
@@ -198,134 +331,40 @@ div.absolute {
 }
 
 
-@media only screen and (max-width: 575px) {
-    .S1H1 {
-        font-size: 28px;
-    }
 
-    .S1D1 {
-        width: 100vw;
-        border: none;
-    }
 
-    .S1D2 {
-        padding-top: 8vh;
-        width: 100vw;
-    }
 
-    .S1H2 {
-        font-size: 25px;
-    }
 
-    .S1P {
-        font-size: 20px;
-    }
 
-    .S1L2{
-        font-size: 22px;
-    }
-
-    .HL2{
-        font-size: 18px;
-    }
+.S2{
+    background-image: url(../images/bg2.png);
 }
 
-@media only screen and (min-width: 768px) {
-    .S1H1 {
-        font-size: 45px;
-    }
-
-    .S1D1 {
-        width: 50vw;
-    }
-
-    .S1D2 {
-        width: 50vw;
-    }
-
-    .S1H2 {
-        font-size: 30px;
-    }
-
-    .S1L2{
-        font-size: 22px;
-    }
-
-    .HL2{
-        font-size: 22px;
-    }
+.relative{
+    position: relative;
 }
 
-@media only screen and (min-width: 992px) {
-    .S1H1 {
-        font-size: 70px;
-    }
-
-    .S1D1 {
-        width: 50vw;
-    }
-
-    .S1D2 {
-        width: 50vw;
-    }
-
-    .S1H2 {
-        font-size: 32px;
-    }
-
-    .S1P {
-        font-size: 20px;
-    }
-
-    .S1L2{
-        font-size: 30px;
-    }
+.absolute{
+    position: absolute;
+    left: 9.9vw;
+    bottom: -185px;
 }
 
-@media only screen and (min-width: 1200px) {
-    .S1H1 {
-        font-size: 90px;
-    }
-
-    .S1D1 {
-        width: 40vw;
-    }
-
-    .S1D2 {
-        width: 40vw;
-    }
-
-    .S1H2 {
-        font-size: 32px;
-    }
-
-    .S1P {
-        font-size: 22px;
-    }
+.sticky{
+    position: sticky;
 }
-
-@media only screen and (min-width: 1400px) {
-    .S1H1 {
-        font-size: 110px;
-    }
-
-    .S1D1 {
-        width: 40vw;
-    }
-
-    .S1D2 {
-        width: 40vw;
-    }
-
-    .S1H2 {
-        font-size: 45px;
-    }
-
-    .S1P {
-        font-size: 30px;
-    }
-
-    .HL2{
-        font-size: 30px;
-    }
+.S2D1{
+    padding-top: 1290px;
+}
+.S2D2{
+    height: 1850px;
+}
+.S2M1{
+    width: 30vw; 
+    margin-bottom: 200px;
+}
+.S2M2{
+    width: 10.8vw;
+    padding-top: 150px;
+    margin-bottom: 200px;
 }
