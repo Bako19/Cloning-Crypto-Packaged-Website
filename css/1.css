@@ -31,11 +31,19 @@
     .S2D2{
         height: 1580px;
     }
+    .S2M2{
+        margin-bottom: 370px ;
+    }
 }
 @media only screen and (min-width: 575px) {
     .S2D2{
+     
         height: 1650px;
-    }}
+    }
+    .S2M2{
+        margin-bottom: 370px ;
+    }
+}
 
 @media only screen and (min-width: 768px) {
     .S1H1 {
@@ -63,6 +71,9 @@
     }
     .S2D2{
         height: 1700px;
+    }
+    .S2M2{
+        margin-bottom: 350px ;
     }
 }
 
@@ -93,6 +104,9 @@
     .S2D2{
         height: 1750px;
     }
+    .S2M2{
+        margin-bottom: 340px ;
+    }
 }
 
 @media only screen and (min-width: 1200px) {
@@ -117,6 +131,9 @@
     }
     .S2D2{
         height: 1800px;
+    }
+    .S2M2{
+        margin-bottom: 320px ;
     }
 }
 
@@ -385,5 +402,4 @@ div.absolute {
 .S2M2{
     width: 10.8vw;
     padding-top: 10vw;
-    margin-bottom: 200px;
 }
