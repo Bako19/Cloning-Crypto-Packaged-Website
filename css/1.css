@@ -362,11 +362,11 @@ div.absolute {
   background-position: center;
 }
 
-.relative{
+.relative2{
     position: relative;
 }
 
-.absolute{
+.absolute2{
     position: absolute;
     left: 9.9vw;
     bottom: -185px;
